@@ -1,0 +1,79 @@
+.loginPage{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    background: #fff;
+    padding-bottom: 30px;
+   
+} 
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.underline{
+    
+    width: 60px;
+    height: 6px;
+    background: darkblue;
+    border-radius: 9px;
+}
+.inputs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.username{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    background: bisque;
+    border-radius: 5px;
+}
+.password{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    background: bisque;
+    border-radius: 5px;  
+}
+.usernametext{
+    color: darkblue;
+    font-size: 18px;
+    margin: 0px 15px;
+    
+}
+.passwordtext{
+    color: darkblue;
+    font-size: 18px;
+    margin: 0px 17px; 
+}
+.inputs input{
+    color: blue;
+}
+.loginButton{
+    display: flex;
+    gap: 30px;
+    margin: 20px auto;
+    
+}
+.lbutton{
+    color: #ffff;
+    background-color: darkblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
